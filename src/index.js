@@ -4,7 +4,7 @@ import { AuthContextProvider } from "../context/AuthContext";
 import { ChatContextProvider } from "../context/ChatContext";
 import React from 'react';
 import { Suspense } from 'react';
-import '../i18n.js';
+import './i18n.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
