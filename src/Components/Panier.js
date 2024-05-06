@@ -5,7 +5,7 @@ import Navigation from "./Navigation";
 import Footer from "./footer";
 import Checkout from "./Checkout"; // Import the Checkout component
 import apple from '../Images/apple.png';
-import { db } from '../firebase'; // Import Firebase
+import { db } from '../firebase/firebase'; // Import Firebase
 import {
   MDBBtn,
   MDBCard,

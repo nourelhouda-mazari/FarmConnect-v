@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next'; // Importing useTranslation hook
-import './Footer.css';
+import '../Styles/Footer.css';
 import i18n from '../i18n';
 import { Link } from 'react-router-dom';
 import TermsAndConditions from './Termes';

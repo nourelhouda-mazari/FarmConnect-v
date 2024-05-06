@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'; 
-import { db } from '../firebase'; // Import Firebase
+import { db } from '../firebase/firebase'; // Import Firebase
 
 import Navigation from '../Components/Navigation';
 import Footer from '../Components/footer'; // Corrected import statement

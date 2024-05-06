@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import { AuthContextProvider } from "../context/AuthContext";
-import { ChatContextProvider } from "../context/ChatContext";
+import { AuthContextProvider } from "./context/AuthContext.js";
+import { ChatContextProvider } from "./context/ChatContext";
 import React from 'react';
 import { Suspense } from 'react';
 import './i18n.js';

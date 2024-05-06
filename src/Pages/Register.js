@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { createUserWithEmailAndPassword, sendEmailVerification, updateProfile } from "firebase/auth";
-import { auth, db, storage } from "../firebase";
+import { auth, db, storage } from "../firebase/firebase";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore";
 

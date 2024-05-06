@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom"; // Importer Link
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail } from "firebase/auth";
-import { auth } from "../firebase";
+import { auth } from "../firebase/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import GoogleSignin from "../img/google-removebg-preview.png";
+import GoogleSignin from "../Images/google-removebg-preview.png";
 import SignUpForms from "./Register";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
