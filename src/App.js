@@ -19,7 +19,7 @@ import Workforce from './Pages/workforce';
 import TermsAndConditions from './Components/Termes.js'; // Import your TermsAndConditions component
 //import sections from './Dashboard/routes/sections.jsx';
 import Feed from './Pages/Feed.js';
-
+import Ajout from './Components/ajoutP.js';
 import ContactUs from './Components/ContactUs';
 //import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -82,6 +82,7 @@ function App() {
           <Route path="/workforce" element={<Workforce />} />
           <Route path="/Feed" element={<Feed />} />
           <Route path="/contactus" element={<ContactUs />} /> 
+          <Route path="/Ajouter" element={<Ajout />} />
         </Routes>
       </Router>
     </HelmetProvider>
