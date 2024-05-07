@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';// Import Link from react-router-dom
 import { useState } from "react"; 
 import Navigation from '../Components/Navigation';
 import Footer from '../Components/footer';
-import { useTranslation } from 'react-i18next'; // Import useTranslation hook
+import { useTranslation } from 'react-i18next'; 
 import tracteur from '../Images/tracteur.jpg';
 import souffleur from '../Images/souffleur.jpg';
 import charrues from '../Images/charrues.jpg';
